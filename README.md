@@ -2,14 +2,17 @@
 
 - **Title**: Knowledge Graphs and Multi-label Learning Models Facilitate Flexible and Efficient Prediction of Adverse Drug Reactions
 - **Authors**: Emir Muñoz, Vít Novácek, Pierre-Yves Vandenbussche
-- **Contact**: Emir Muñoz, emir.munoz@insight-centre.org
+- **Contact**: Emir Muñoz, [emir.munoz@insight-centre.org](mailto:emir.munoz@insight-centre.org)
 
-## Data sets
-
-We make available the data sets used to evaluate our approach.
+This page provides a full description of the data sets make available for the paper mentioned above. These data sets were used to evaluate all the approaches reviewed in the manuscript.
 
 
-### Liu's data set
+## Download
+
+All data sets files are publicly available at [https://figshare.com/s/d1a6f7c3dc10111037d5](https://figshare.com/s/d1a6f7c3dc10111037d5).
+
+
+## Liu's data set
 
 This data set was originally proposed by Liu et at. (2012), and then processed after by Zhang et at. (2015) for machine learning. Liu's dataset contains 832 drugs with 2892 features, and 1385 ADRs.
 
@@ -40,7 +43,7 @@ The results of our approach using this dataset are in _Table 4_ and _Table 5_ of
 	+ `sideeffect_index.txt`
 
 
-### Bio2RDF v1
+## Bio2RDF v1
 
 We consider the list of drugs from Liu's dataset but not their features. Instead, we extract the features from the Knowledge Graph generated from Bio2RDF v1 DrugBank and SIDER datasets. This generates 30161 features for the 832 drugs, and we consider the same set of 1385 ADRs in Liu's dataset.
 
@@ -54,7 +57,7 @@ The results of our approach using this dataset are in _Table 6_ of our article.
 - `y_column_labels.json`: list of 1385 ADRs with the ID in the columns of matrix `y`
 
 
-### Bio2RDF v2
+## Bio2RDF v2
 
 We consider the list of drugs from Liu's dataset but not their features. Instead, we extract the features from the Knowledge Graph generated from Bio2RDF v2 DrugBank, SIDER and KEGG datasets. This generates 37368 features for the 832 drugs, and we consider the same set of 1385 ADRs in Liu's dataset.
 
@@ -68,7 +71,7 @@ The results of our approach using this dataset are in _Table 7_ of our article.
 - `y_column_labels.json`: list of 1385 ADRs with the ID in the columns of matrix `y`
 
 
-### Liu + Bio2RDF v2
+## Liu + Bio2RDF v2
 
 We also consider the integration of features from both Liu and Bio2RDF v2 datasets for the 832 drugs. This generates 40260 features in total, which are used to train the machine learning models.
 
@@ -82,7 +85,7 @@ The results of our approach using this dataset are in _Table 8_ of our article.
 - `y_column_labels.json`: list of 1385 ADRs with the ID in the columns of matrix `y`
 
 
-### SIDER 4 data set
+## SIDER 4 data set
 
 We also performed an independent evaluation using the SIDER 4 dataset provided by Zhang et at. (2015), which comprises a subset of the drugs from Liu's dataset plus some newly added drugs.
 
@@ -103,7 +106,7 @@ The results of our approach using this dataset are in _Table 9_ of our article.
 	+ `sideeffect_index.txt`
 
 
-### SIDER 4 + Bio2RDF v2 data sets
+## SIDER 4 + Bio2RDF v2 data sets
 
 Similarly to what we did with Liu's dataset, we also consider the list of drugs in SIDER 4 dataset but not their features. Instead, we extract the features from the Knowledge Graph generated from Bio2RDF v2 DrugBank, SIDER and KEGG datasets. This generates 43843 features for the 1080 drugs (771 for training and 309 for testing), and we consider the same set of 5579 ADRs in SIDER 4 dataset.
 
@@ -117,7 +120,7 @@ The results of our approach using this dataset are in _Table 10_ of our article.
 - `y_column_labels.json`: list of 5579 ADRs with the ID in the columns of matrices `y_train` and `y_test`.
 
 
-### SIDER 4 + Bio2RDF v2 + Aeolus data sets
+## SIDER 4 + Bio2RDF v2 + Aeolus data sets
 
 Additionally, we evaluate the predictions on newly added ADRs which were discovered (reported) after the generation of SIDER 4 dataset. This relationships are published in the Aeolus dataset, which is generated from the FAERS reports. The matrices shape is as in SIDER 4, and we update the matrix `y_test` with drug-ADR relations from Aeolus.
 
@@ -130,7 +133,8 @@ The results of our approach using this dataset are in _Table 11_ of our article.
 - `X_test_row_labels.json`: list of 309 drugs in the test set with the ID in the rows of matrix `X_test`.
 - `y_column_labels.json`: list of 5579 ADRs with the ID in the columns of matrices `y_train` and `y_test`.
 
-### Changelog
+
+## Changelog
 
 + Version 0.0.2 (May 5, 2017 4:26 PM)
 	- Adding table with detailed description of Liu's data set features

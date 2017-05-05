@@ -19,6 +19,7 @@ The results of our approach using this dataset are in _Table 4_ and _Table 5_ of
 **Files:**
 - `Liu_drug_lists.csv`: list of 832 drugs. The file is in `csv` format: `DrugBank ID, Drug Name, PubChem ID`.
 - `Liu_dataset.mat`: a file with the features for each drug. The file uses MatLab `mat` format, and contains a dictionary with features name and values for each of the 832 drugs. The features are:
+
 | Feature type | Specific feature      | Source   | ID                | Dimension | Dictionary key |
 |--------------|-----------------------|----------|-------------------|-----------|----------------|
 | Chemical     | Substructures         | PubChem  | PubChem IDs       | 881       | `chemical`     |
@@ -129,4 +130,9 @@ The results of our approach using this dataset are in _Table 11_ of our article.
 - `X_test_row_labels.json`: list of 309 drugs in the test set with the ID in the rows of matrix `X_test`.
 - `y_column_labels.json`: list of 5579 ADRs with the ID in the columns of matrices `y_train` and `y_test`.
 
-> April 6, 2017 1:51 PM
+### Changelog
+
++ Version 0.0.2 (May 5, 2017 4:26 PM)
+	- Adding table with detailed description of Liu's data set features
++ Version 0.0.1 (April 6, 2017 1:51 PM)
+	- Adding description to all data sets

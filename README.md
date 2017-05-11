@@ -4,12 +4,12 @@
 - **Authors**: Emir Muñoz, Vít Novácek, Pierre-Yves Vandenbussche
 - **Contact**: Emir Muñoz, [emir.munoz@insight-centre.org](mailto:emir.munoz@insight-centre.org)
 
-This page provides a full description of the data sets make available for the paper mentioned above. These data sets were used to evaluate all the approaches reviewed in the manuscript.
+This page provides a full description of the data sets used in this manuscript and that are made available. These data sets were used to evaluate all approaches reviewed in the manuscript.
 
 
 ## Download
 
-All data sets files are publicly available at [https://figshare.com/s/d1a6f7c3dc10111037d5](https://figshare.com/s/d1a6f7c3dc10111037d5).
+All data sets files are publicly available for download at [https://figshare.com/s/d1a6f7c3dc10111037d5](https://figshare.com/s/d1a6f7c3dc10111037d5).
 
 
 ## Liu's data set

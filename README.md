@@ -163,3 +163,10 @@ The results obtained using this data set are in _Table 11_ of the article.
 	- Adding table with detailed description of Liu's and SIDER 4 data sets features
 + Version 0.0.1 (April 6, 2017 1:51 PM)
 	- Adding description to all data sets
+
+## References
+
+* Liu M, Wu Y, Chen Y, et al. Large-scale prediction of adverse drug reactions using chemical, biological, and phenotypic properties of drugs. Journal of the American Medical Informatics Association. 2012.
+* ZhangW, Liu F, Luo L, et al. Predicting drug side effects bymulti-label learning and ensemble learning. BMC bioinformatics. 2015;16:1.
+* Zhang W, Chen Y, Tu S, et al. Drug side effect prediction through linear neighborhoods and multiple data source integration. In: 2016 IEEE International Conference on Bioinformatics and Biomedicine (BIBM); 2016. p. 427–434.
+* Muñoz E, Novacek V, Vandenbussche PY. Using drug similarities for discovery of possible adverse reactions. In: AMIA 2016, American Medical Informatics Association Annual Symposium. American Medical Informatics Association; 2016. p. 924–933.

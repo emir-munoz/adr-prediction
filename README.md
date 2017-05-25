@@ -48,7 +48,12 @@ The feature types, sources, and IDs are described as follows:
 
 ## Bio2RDF v1
 
-We consider the list of drugs from Liu's data set but not their features. Instead, we extract the features from the Knowledge Graph generated from Bio2RDF v1 DrugBank and SIDER data sets. This generates 30161 features for the 832 drugs, and we consider the same set of 1385 ADRs in Liu's data set.
+We consider the list of drugs from Liu's data set but not their features. Instead, we extract the features from the Knowledge Graph generated from Bio2RDF v1 DrugBank and SIDER data sets (Muñoz et al., 2016). This generates 30161 features for the 832 drugs, and we consider the same set of 1385 ADRs in Liu's data set.
+
+### Download original files
+
+> The original Bio2RDF RDF files can be downloaded at https://drive.google.com/drive/folders/0B-IMn2brDxUZOE1KNlNZbFdZZ3M?usp=sharing 
+> For the feature extraction from those files, please check the supplemental material of the article.
 
 The results obtained using this data set are in _Table 6_ of the article.
 
@@ -63,6 +68,11 @@ The results obtained using this data set are in _Table 6_ of the article.
 ## Bio2RDF v2
 
 We consider the list of drugs from Liu's data set but not their features. Instead, we extract the features from the Knowledge Graph generated from Bio2RDF v2 DrugBank, SIDER and KEGG data sets. This generates 37368 features for the 832 drugs, and we consider the same set of 1385 ADRs in Liu's data set.
+
+### Download original files
+
+> The original Bio2RDF RDF files can be downloaded at https://drive.google.com/drive/folders/0B-IMn2brDxUZOE1KNlNZbFdZZ3M?usp=sharing 
+> For the feature extraction from those files, please check the supplemental material of the article.
 
 The results obtained using this data set are in _Table 7_ of the article.
 

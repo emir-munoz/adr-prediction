@@ -52,7 +52,7 @@ We consider the list of drugs from Liu's data set but not their features. Instea
 
 ### Download original files
 
-> The original Bio2RDF RDF files can be downloaded at https://drive.google.com/drive/folders/0B-IMn2brDxUZOE1KNlNZbFdZZ3M?usp=sharing 
+> The original Bio2RDF RDF files can be downloaded at [https://drive.google.com/drive/folders/0B-IMn2brDxUZOE1KNlNZbFdZZ3M?usp=sharing](https://drive.google.com/drive/folders/0B-IMn2brDxUZOE1KNlNZbFdZZ3M?usp=sharing) 
 > For the feature extraction from those files, please check the supplemental material of the article.
 
 The results obtained using this data set are in _Table 6_ of the article.
@@ -71,7 +71,7 @@ We consider the list of drugs from Liu's data set but not their features. Instea
 
 ### Download original files
 
-> The original Bio2RDF RDF files can be downloaded at https://drive.google.com/drive/folders/0B-IMn2brDxUZOE1KNlNZbFdZZ3M?usp=sharing 
+> The original Bio2RDF RDF files can be downloaded at [https://drive.google.com/drive/folders/0B-IMn2brDxUZOE1KNlNZbFdZZ3M?usp=sharing](https://drive.google.com/drive/folders/0B-IMn2brDxUZOE1KNlNZbFdZZ3M?usp=sharing) 
 > For the feature extraction from those files, please check the supplemental material of the article.
 
 The results obtained using this data set are in _Table 7_ of the article.

@@ -1,6 +1,6 @@
 # Article supplemental material
 
-- **Title**: Knowledge Graphs and Multi-label Learning Models Facilitate Flexible and Efficient Prediction of Adverse Drug Reactions
+- **Title**: Facilitating Prediction of Adverse Drug Reactions by Using Knowledge Graphs and Multi-Label Learning Models
 - **Authors**: Emir Muñoz, Vít Novácek, Pierre-Yves Vandenbussche
 - **Contact**: Emir Muñoz, [emir.munoz@insight-centre.org](mailto:emir.munoz@insight-centre.org)
 

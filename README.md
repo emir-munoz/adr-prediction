@@ -3,6 +3,7 @@
 - **Title**: Facilitating Prediction of Adverse Drug Reactions by Using Knowledge Graphs and Multi-Label Learning Models
 - **Authors**: Emir Muñoz, Vít Novácek, Pierre-Yves Vandenbussche
 - **Contact**: Emir Muñoz, [emir.munoz@insight-centre.org](mailto:emir.munoz@insight-centre.org)
+- **URL**: [http://purl.com/bib-adr-prediction/](http://purl.com/bib-adr-prediction/)
 
 This page provides a full description of the data sets used in this manuscript and that are made available. These data sets were used to evaluate all approaches reviewed in the manuscript.
 
@@ -14,7 +15,7 @@ All data sets files are publicly available for download at [https://figshare.com
 
 ## Liu's data set
 
-This data set was originally proposed by Liu et at. (2012), and then processed after by Zhang et at. (2015) for machine learning. Liu's data set contains 832 drugs with 2892 features, and 1385 ADRs.
+This data set was originally proposed by Liu et al. (2012)[^1], and then processed after by Zhang et al. (2015)[^2] and Zhang et al. (2016)[^3] for machine learning. Liu's data set contains 832 drugs with 2892 features, and 1385 ADRs.
 
 The results obtained using this data set are in _Table 4_ and _Table 5_ of the article.
 
@@ -48,11 +49,11 @@ The feature types, sources, and IDs are described as follows:
 
 ## Bio2RDF v1
 
-We consider the list of drugs from Liu's data set but not their features. Instead, we extract the features from the Knowledge Graph generated from Bio2RDF v1 DrugBank and SIDER data sets (Muñoz et al., 2016). This generates 30161 features for the 832 drugs, and we consider the same set of 1385 ADRs in Liu's data set.
+We consider the list of drugs from Liu's data set but not their features. Instead, we extract the features from the Knowledge Graph generated from Bio2RDF v1 DrugBank and SIDER data sets (Muñoz et al., 2016)[^4]. This generates 30161 features for the 832 drugs, and we consider the same set of 1385 ADRs in Liu's data set.
 
 ### Download original files
 
-> The original Bio2RDF RDF files can be downloaded at [https://drive.google.com/drive/folders/0B-IMn2brDxUZOE1KNlNZbFdZZ3M?usp=sharing](https://drive.google.com/drive/folders/0B-IMn2brDxUZOE1KNlNZbFdZZ3M?usp=sharing) 
+> The original Bio2RDF RDF files can be downloaded at [http://purl.com/bib-adr-prediction/data](http://purl.com/bib-adr-prediction/data)
 > For the feature extraction from those files, please check the supplemental material of the article.
 
 The results obtained using this data set are in _Table 6_ of the article.
@@ -71,7 +72,7 @@ We consider the list of drugs from Liu's data set but not their features. Instea
 
 ### Download original files
 
-> The original Bio2RDF RDF files can be downloaded at [https://drive.google.com/drive/folders/0B-IMn2brDxUZOE1KNlNZbFdZZ3M?usp=sharing](https://drive.google.com/drive/folders/0B-IMn2brDxUZOE1KNlNZbFdZZ3M?usp=sharing) 
+> The original Bio2RDF RDF files can be downloaded at [http://purl.com/bib-adr-prediction/data](http://purl.com/bib-adr-prediction/data)
 > For the feature extraction from those files, please check the supplemental material of the article.
 
 The results obtained using this data set are in _Table 7_ of the article.
@@ -100,7 +101,7 @@ The results obtained using this data set are in _Table 8_ of the article.
 
 ## SIDER 4 data set
 
-We also performed an independent evaluation using the SIDER 4 data set provided by Zhang et at. (2015), which comprises a subset of the drugs from Liu's data set plus some newly added drugs.
+We also performed an independent evaluation using the SIDER 4 data set provided by Zhang et al. (2015)[^2], which comprises a subset of the drugs from Liu's data set plus some newly added drugs.
 
 ### Download original files
 
@@ -169,6 +170,9 @@ The results obtained using this data set are in _Table 11_ of the article.
 
 ## Changelog
 
++ Version 0.0.3 (June 16, 2017 4:40 PM)
+	- Updating URLs with persistent URLs
+	- Update links to references
 + Version 0.0.2 (May 9, 2017 1:50 PM)
 	- Adding table with detailed description of Liu's and SIDER 4 data sets features
 + Version 0.0.1 (April 6, 2017 1:51 PM)
@@ -176,7 +180,7 @@ The results obtained using this data set are in _Table 11_ of the article.
 
 ## References
 
-* Liu M, Wu Y, Chen Y, et al. Large-scale prediction of adverse drug reactions using chemical, biological, and phenotypic properties of drugs. Journal of the American Medical Informatics Association. 2012.
-* ZhangW, Liu F, Luo L, et al. Predicting drug side effects bymulti-label learning and ensemble learning. BMC bioinformatics. 2015;16:1.
-* Zhang W, Chen Y, Tu S, et al. Drug side effect prediction through linear neighborhoods and multiple data source integration. In: 2016 IEEE International Conference on Bioinformatics and Biomedicine (BIBM); 2016. p. 427–434.
-* Muñoz E, Novacek V, Vandenbussche PY. Using drug similarities for discovery of possible adverse reactions. In: AMIA 2016, American Medical Informatics Association Annual Symposium. American Medical Informatics Association; 2016. p. 924–933.
+[^1]: Liu M, Wu Y, Chen Y, et al. Large-scale prediction of adverse drug reactions using chemical, biological, and phenotypic properties of drugs. Journal of the American Medical Informatics Association. 2012.
+[^2]: Zhang W, Liu F, Luo L, et al. Predicting drug side effects bymulti-label learning and ensemble learning. BMC bioinformatics. 2015;16:1.
+[^3]: Zhang W, Chen Y, Tu S, et al. Drug side effect prediction through linear neighborhoods and multiple data source integration. In: 2016 IEEE International Conference on Bioinformatics and Biomedicine (BIBM); 2016. p. 427–434.
+[^4]: Muñoz E, Novacek V, Vandenbussche PY. Using drug similarities for discovery of possible adverse reactions. In: AMIA 2016, American Medical Informatics Association Annual Symposium. American Medical Informatics Association; 2016. p. 924–933.

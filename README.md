@@ -10,7 +10,7 @@ This page provides a full description of the data sets used in this manuscript a
 
 ## Download
 
-All data sets files are publicly available for download at [https://figshare.com/s/d1a6f7c3dc10111037d5](https://figshare.com/s/d1a6f7c3dc10111037d5).
+All data sets files are publicly available for download at [https://doi.org/10.6084/m9.figshare.4823203](https://doi.org/10.6084/m9.figshare.4823203).
 
 
 ## Liu's data set

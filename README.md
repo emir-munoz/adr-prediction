@@ -3,7 +3,7 @@
 - **Title**: Facilitating Prediction of Adverse Drug Reactions by Using Knowledge Graphs and Multi-Label Learning Models
 - **Authors**: Emir Muñoz, Vít Novácek, Pierre-Yves Vandenbussche
 - **Contact**: Emir Muñoz, [emir.munoz@insight-centre.org](mailto:emir.munoz@insight-centre.org)
-- **URL**: [http://purl.com/bib-adr-prediction/](http://purl.com/bib-adr-prediction/)
+- **URL**: [http://purl.org/bib-adr-prediction/](http://purl.org/bib-adr-prediction/)
 
 This page provides a full description of the data sets used in this manuscript and that are made available. These data sets were used to evaluate all approaches reviewed in the manuscript.
 
@@ -53,7 +53,7 @@ We consider the list of drugs from Liu's data set but not their features. Instea
 
 ### Download original files
 
-> The original Bio2RDF RDF files can be downloaded at [http://purl.com/bib-adr-prediction/data](http://purl.com/bib-adr-prediction/data)
+> The original Bio2RDF RDF files can be downloaded at [http://purl.org/bib-adr-prediction/data](http://purl.org/bib-adr-prediction/data)
 > For the feature extraction from those files, please check the supplemental material of the article.
 
 The results obtained using this data set are in _Table 6_ of the article.
@@ -72,7 +72,7 @@ We consider the list of drugs from Liu's data set but not their features. Instea
 
 ### Download original files
 
-> The original Bio2RDF RDF files can be downloaded at [http://purl.com/bib-adr-prediction/data](http://purl.com/bib-adr-prediction/data)
+> The original Bio2RDF RDF files can be downloaded at [http://purl.org/bib-adr-prediction/data](http://purl.org/bib-adr-prediction/data)
 > For the feature extraction from those files, please check the supplemental material of the article.
 
 The results obtained using this data set are in _Table 7_ of the article.
